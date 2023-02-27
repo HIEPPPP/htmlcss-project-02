@@ -564,7 +564,7 @@ a {
 /* Blog */
 .blog {
     background: #fffcf4;
-    padding: 65px 0;
+    padding: 65px 0 96px;
     margin-top: 31px;
 }
 
@@ -678,4 +678,89 @@ a {
 .blog-foot .dot.active {
     background-color: var(--primary-color);
     cursor: default;
+}
+
+/* Footer */
+.footer {
+    background: #2e2100;
+    padding: 96px 0 28px;
+}
+
+.footer .row {
+    position: relative;
+    display: flex;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #59554b;
+}
+
+.footer .row .column {
+    width: 21.6%;
+}
+
+.footer .row .column:first-child {
+    width: 35%;
+}
+
+.footer .column:first-child {
+    margin-right: 15px;
+}
+
+.footer .column .logo {
+    margin-top: 6px;
+}
+
+.footer .column .title {
+    display: inline-block;
+    border-bottom: 1px solid #59554b;
+    padding: 0 48px 14px 0;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #ffffff;
+}
+
+.footer .column .desc {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+    width: 267px;
+}
+
+.footer .social {
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.footer .column .list {
+    margin-top: 28px;
+}
+
+.footer .column .list a {
+    display: inline-block;
+    margin-top: 12px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+}
+
+.footer .colum .list a:first-child {
+    margin-top: 0;
+}
+
+.footer .column strong {
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer .copy-right {
+    margin-top: 28px;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #807d74;
 }
